@@ -1,0 +1,21 @@
+{
+    "name": "simonsoftware/yii2-geophp",
+    "description": "Wrapper for GeoPHP",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","gis","geophp"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Paolo Bolla",
+            "email": "support@simonsoftware.it"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "simonsoftware\\geophp\\": ""
+        }
+    }
+}
